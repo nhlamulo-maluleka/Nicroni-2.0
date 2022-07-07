@@ -10,6 +10,6 @@ app.use(express.urlencoded({ extended: true }))
 app.use(cors())
 app.use("/nicroni", api)
 
-app.get("/", (_, res) => res.redirect("/nicroni/cdn"))
+app.get("/", (_, res) => res.end("NICRONI API"))
 
 server.listen(PORT, () => console.log(`Server running on port ${PORT}`))
