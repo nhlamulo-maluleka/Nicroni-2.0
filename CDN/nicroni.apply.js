@@ -1,0 +1,25 @@
+import Props from "./Props.js"
+
+export default class Apply extends Props {
+    width = (clist, style, children) => this.apply(clist, style, this.widthProp, children)
+    height = (clist, style, children) => this.apply(clist, style, this.heightProp, children)
+    background = (clist, style, children) => this.apply(clist, style, this.backgroundProp, children)
+    foregroundColor = (clist, style, children) => this.apply(clist, style, this.foregroundColorProp, children)
+    padding = (clist, style, children) => this.apply(clist, style, this.paddingProp, children)
+    margin = (clist, style, children) => this.apply(clist, style, this.marginProp, children)
+    font = (clist, style, children) => this.apply(clist, style, this.fontProp, children)
+    borderRadius = (clist, style, children) => this.apply(clist, style, this.borderRadiusProp, children)
+    align = (clist, style, children) => this.apply(clist, style, this.alignProp, children)
+    fontFamily = (clist, style, children) => this.apply(clist, style, this.fontFamilyProp, children)
+    border = (clist, style, children) => this.apply(clist, style, this.borderProp, children)
+    opacity = (clist, style, children) => this.apply(clist, style, this.opacityProp, children)
+    center = (clist, style, children) => this.apply(clist, style, this.centerProp, children)
+    outline = (clist, style, children) => this.apply(clist, style, this.outlineProp, children)
+    _listStyle = (clist, style, children) => this.apply(clist, style, this.listStyleProp, children)
+    gridColumn = (clist, style, children) => this.apply(clist, style, this.gridColumnProp, children)
+    gridRow = (clist, style, children) => this.apply(clist, style, this.gridRowProp, children)
+    display = (clist, style, children) => this.apply(clist, style, this.displayProp, children)
+    textDecoration = (clist, style, children) => this.apply(clist, style, this.textDecorationProp, children)
+    gap = (clist, style, children) => this.apply(clist, style, this.gapProp, children)
+    gridTemplate = (clist, style, children) => this.apply(clist, style, this.gridTemplateProp, children)
+}
