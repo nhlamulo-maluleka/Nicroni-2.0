@@ -7,7 +7,7 @@ A web framework for styling your website using actual html classes instead of wr
 ## How To Use
 <script type="module" src="https://nicroni.herokuapp.com/nicroni/cdn/nicroni.js" crossorigin="anonymous" defer></script>
 
-####Inside HTML
+#### Inside HTML
 <element class="property"></element>
 
 ### Width
