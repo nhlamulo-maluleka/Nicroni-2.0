@@ -8,7 +8,7 @@ A web framework for styling your website using actual html classes instead of wr
 <script type="module" src="https://nicroni.herokuapp.com/nicroni/cdn/nicroni.js" crossorigin="anonymous" defer></script>
 
 ####Inside HTML
-> <element class="property"></element>
+<element class="property"></element>
 
 ### Width
 - `w-(value)` - a native css width property
@@ -82,12 +82,12 @@ A web framework for styling your website using actual html classes instead of wr
 - `bg-children-property-(value)` - for applying the background property to the child elements of the parent
 
 #### The Following properties can be used:
-- bg-color-(value) for background-color
-- bg-image-(value) for background-image
-- bg-size-(value) for background-size
-- bg-position-(value) for background-position
-- bg-repeat-(value) for background-repeat
-- bg-origin-(value) for background-origin
+- `bg-color-(value)` for background-color
+- `bg-image-(value)` for background-image
+- `bg-size-(value)` for background-size
+- `bg-position-(value)` for background-position
+- `bg-repeat-(value)` for background-repeat
+- `bg-origin-(value)` for background-origin
 
 ### Foreground Color
 - `color-(value)` - a native css color property
