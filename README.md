@@ -8,7 +8,7 @@ A web framework for styling your website using actual html classes instead of wr
 <script type="module" src="https://nicroni.herokuapp.com/nicroni/cdn/nicroni.js" crossorigin="anonymous" defer></script>
 
 #### Inside HTML
-<element class="property"></element>
+<elem class="property"></elem>
 
 ### Width
 - `w-(value)` - a native css width property
