@@ -84,12 +84,12 @@ A web framework for styling your website using actual html classes instead of wr
 - `bg-children-property-(value)` - for applying the background property to the child elements of the parent
 
 #### The Following properties can be used:
-- `bg-color-(value)` for background-color
-- `bg-image-(value)` for background-image
-- `bg-size-(value)` for background-size
-- `bg-position-(value)` for background-position
-- `bg-repeat-(value)` for background-repeat
-- `bg-origin-(value)` for background-origin
+1. `bg-color-(value)` for background-color
+2. `bg-image-(value)` for background-image
+3. `bg-size-(value)` for background-size
+4. `bg-position-(value)` for background-position
+5. `bg-repeat-(value)` for background-repeat
+6. `bg-origin-(value)` for background-origin
 
 ### Foreground Color
 - `color-(value)` - a native css color property
