@@ -13,35 +13,43 @@ A web framework for styling your website using actual html classes instead of wr
 ---
 
 ### Width
+
 - `w-(value)` - a native css width property
 - `w-children-(value)` - for applying the weight property to the child elements of the parent
 
 ### Height
+
 - `h-(value)` - a native css height property
 - `h-children-(value)` - for applying the height property to the child elements of the parent
 
 ### Font Size
+
 - `fs-(value)` - a native css font-size property
 - `fs-children-(value)` - for applying the font-size property to the child elements of the parent
 
 ### Font Weight
+
 - `fw-(value)` - a native css font-weight property
 - `fw-children-(value)` - for applying the font-weight property to the child elements of the parent
 
 ### Font Style
+
 - `ft-(value)` - a native css font-weight property
 - `ft-children-(value)` - for applying the font-style property to the child elements of the parent
 
 ### Font Family
+
 > **NB:** When your font-family name has spaces, use the '+'
 - `ff-(value)` - a native css font-family property
 - `ff-children-(value)` - for applying the font-family property to the child elements of the parent
 
 ### Align Content
+
 - `al-(left | center | right)` - a flexbox content alignment property for aligning content horizontally
 - `al-children-(left | center | right)` - for applying the flexbox align property to the child elements of the parent
 
 ### Padding
+
 - `p-(value)` - a native css padding property
 - `p-children-(value)` - for applying the padding property to the child elements of the parent
 
@@ -62,6 +70,7 @@ A web framework for styling your website using actual html classes instead of wr
 
 
 ### Margin
+
 - `m-(value)` - a native css margin property
 - `m-children-(value)` - applying the margin property to the child elements of the parent
 - `m-(value,value)` - a shorthand native css margin property
@@ -80,6 +89,7 @@ A web framework for styling your website using actual html classes instead of wr
 - `mb-children-(value)` - for applying the margin-bottom property to the child elements of the parent
 
 ### Background
+
 - `bg-property-(value)` - a css background property supporting css background properties
 - `bg-children-property-(value)` - for applying the background property to the child elements of the parent
 
@@ -92,14 +102,17 @@ A web framework for styling your website using actual html classes instead of wr
 6. `bg-origin-(value)` for background-origin
 
 ### Foreground Color
+
 - `color-(value)` - a native css color property
 - `color-children-(value)` - for applying the color property to the child elements of the parent
 
 ### Display
+
 - `d-(value)` - a native css display property
 - `d-children-(value)` - for applying the display property to the child elements of the parent
 
 ### Border Radius
+
 - `br-(value)` - a native css border-radius property
 - `br-children-(value)` - for applying the border-radius property to the child elements of the parent
 
@@ -117,3 +130,53 @@ A web framework for styling your website using actual html classes instead of wr
 
 - `opacity-(value)` - a native css opacity property
 - `opacity-children-(value)` - for applying the opacity property to the child elements of the parent
+
+### Flex Center
+
+- `center` - a flexbox element centering property.
+- `center-children` - for applying the center property to the child elements of the parent
+
+- `center-(left | right)` - a flexbox element centering property with justify-content of (left or right)
+- `center-children-(left | right)` - for applying the center property to the child elements of the parent with justify-content of (left or right)
+
+### Outline 
+
+- `outline-` - a native css outline property
+- `outline-children` - for applying the outline property to the child elements of the parent
+
+### List Style
+
+- `ls-(value)` - a shorthand for the list-style property
+- `ls-children` - for applying the list-style shorthand property to the child elements of the parent
+
+- `lst-(value)` - a native list-type style property
+- `lst-children-(value)` - for applying the list-type style property to the child elements of the parent
+
+- `lsp-(value)` - a native list-position style property
+- `lsp-children-(value)` - for applying the list-position style property to the child elements of the parent
+
+- `lsi-(value)` - a native list-image style property
+- `lsi-children-(value)` - for applying the list-image style property to the child elements of the parent
+
+### Grid Template
+
+- `grid-(value)` - a native css grid property
+- `grid-template-(value)` - a native css grid-template property
+- `grid-template-row-(value)` - a native css grid-template-row property
+- `grid-template-col-(value)` - a native css grid-template-column property
+
+
+- `grid-children-(value)` - for applying the grid property to the child elements of the parent
+- `grid-template-children-(value)` - for applying the grid-template property to the child elements of the parent
+- `grid-template-row-children-(value)` - for applying the grid-template-row property to the child elements of the parent
+- `grid-template-col-children-(value)` - for applying the grid-template-column property to the child elements of the parent
+
+### Gap
+
+- `gap-(value)` - a native css gap property
+- `gap-children-(value)` - for applying the gap property to the child elements
+
+### Text Decorator
+
+- `td-(value)` - a native css text-decorator property
+- `td-children-(value)` - for applying the text-decorator property to the child elements
