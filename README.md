@@ -10,7 +10,9 @@ A web framework for styling your website using actual html classes instead of wr
 #### Inside HTML
 &lt;element class="property"&gt;&lt;element/&gt;
 
-> ## Properties
+---
+
+## Properties
 
 ### Width
 
