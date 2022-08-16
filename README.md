@@ -11,6 +11,7 @@ A web framework for styling your website using actual html classes instead of wr
 &lt;element class="property"&gt;&lt;element/&gt;
 
 ---
+> ## Properties
 
 ### Width
 
