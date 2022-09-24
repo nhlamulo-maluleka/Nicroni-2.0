@@ -6,7 +6,7 @@ export default class Props extends Root {
         super()
         this.pHs = new PropHelpers();
     }
-
+    
     isValid = (style) => style ? true : false
 
     widthProp = (c, style, children = null) => {
@@ -15,7 +15,7 @@ export default class Props extends Root {
 
         if (wvalue[1] === "children") {
             children.forEach(({ style }) => {
-                if (!isValid(style)) return
+                if (!this.isValid(style)) return
                 this.pHs.applyWidthProp(style, wvalue[2])
             })
         } else this.pHs.applyWidthProp(style, wvalue[1])
@@ -27,7 +27,7 @@ export default class Props extends Root {
 
         if (hvalue[1] === "children") {
             children.forEach(({ style }) => {
-                if (!isValid(style)) return
+                if (!this.isValid(style)) return
                 this.pHs.applyHeightProp(style, hvalue[2])
             })
         } else this.pHs.applyHeightProp(style, hvalue[1])
@@ -135,7 +135,7 @@ export default class Props extends Root {
 
         if (opacity[1] === "children") {
             children.forEach(({ style }) => {
-                if (!isvalid(style)) return
+                if (!this.isvalid(style)) return
                 this.pHs.applyOpacityProp(style, opacity[2])
             })
         } else this.pHs.applyOpacityProp(style, opacity[1])
@@ -233,7 +233,7 @@ export default class Props extends Root {
         // grid-col-child-value
         if (gridcol[2] === "children") {
             children.forEach(({ style }) => {
-                if (!isValid(style)) return
+                if (!this.isValid(style)) return
                 this.pHs.applyGridColumnProp(style, this.pHs.sanitize(gridcol[3]))
             })
         } else this.pHs.applyGridColumnProp(style, this.pHs.sanitize(gridcol[2]))
@@ -247,7 +247,7 @@ export default class Props extends Root {
         // grid-row-child-value
         if (gridrow[2] === "children") {
             children.forEach(({ style }) => {
-                if (!isValid(style)) return
+                if (!this.isValid(style)) return
                 this.pHs.applyGridRowProp(style, this.pHs.sanitize(gridrow[3]))
             })
         } else this.pHs.applyGridRowProp(style, this.pHs.sanitize(gridrow[2]))
@@ -260,7 +260,7 @@ export default class Props extends Root {
 
         if (dvalue[1] === "children") {
             children.forEach(({ style }) => {
-                if (!isValid(style)) return
+                if (!this.isValid(style)) return
                 this.pHs.applyDisplayProp(style, dvalue[2])
             })
 
