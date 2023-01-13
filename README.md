@@ -4,9 +4,6 @@ A web framework for styling your website using actual html classes instead of wr
 > ## Documentation
 > This documentation outlines the usage of the Nicroni-2.0 framework.
 
-## How To Use
-<script type="module" src="https://nicroni.herokuapp.com/nicroni/cdn/nicroni.js" crossorigin="anonymous" defer></script>
-
 #### Inside HTML
 &lt;element class="property"&gt;&lt;element/&gt;
 
