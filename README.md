@@ -6,7 +6,7 @@ A web framework for styling your website using actual html classes instead of wr
 
 ## How to use
 > Please note that it may take some time before starting up since it is curently being hosted on a free plan server
-<script type="module" src="https://tattered-unique-utahceratops.glitch.me/nicroni/cdn/nicroni.js" defer></script>
+<script type="module" src="https://wiry-copper-domain.glitch.me/nicroni/cdn/nicroni.js" defer></script>
 
 #### Inside HTML
 &lt;element class="property"&gt;&lt;element/&gt;
